@@ -1,0 +1,32 @@
+[project]
+name = "avatar-backend"
+version = "0.1.0"
+description = "Sports Competitions API"
+authors = [
+    {name = "Your Name", email = "your.email@example.com"},
+]
+requires-python = ">=3.11"
+license = {text = "MIT"}
+package-mode = false  # Добавьте эту строку
+
+dependencies = [
+    "fastapi>=0.95.0",
+    "uvicorn[standard]>=0.21.0",
+    "pillow>=9.0.0",
+    "pydantic>=1.10.0",
+    "email-validator>=2.0.0",
+    "python-multipart>=0.0.5"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "httpx>=0.23.0",
+    "black>=22.0.0",
+    "isort>=5.0.0",
+    "mypy>=0.990"
+]
+
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"

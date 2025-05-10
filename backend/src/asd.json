@@ -1,0 +1,25 @@
+{
+    "pageTitle": "Главная страница",
+    "competitions": [
+      {
+        "id": 1,
+        "title": "Чемпионат по футболу 2023",
+        "sport": "Футбол",
+        "date": "2023-11-15",
+        "participantsCount": 32,
+        "image": "football.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Кубок по баскетболу",
+        "sport": "Баскетбол",
+        "date": "2023-11-25",
+        "participantsCount": 24,
+        "image": "basketball.jpg"
+      }
+    ],
+    "metadata": {
+      "totalCompetitions": 2,
+      "lastUpdated": "2023-11-01T14:30:00Z"
+    }
+  }
